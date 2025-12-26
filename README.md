@@ -121,7 +121,7 @@ options:
 
 ### Add entry
 ```bash
-python pm.py add -s mysite -u mysite.com -e hello@email.com -l myusername
+python pm.py add -d mysite -u mysite.com -e hello@email.com -l myusername
 ```
 ### Retrieve entry
 ```bash
@@ -129,15 +129,15 @@ python pm.py extract
 ```
 The above command retrieves all the entries
 ```text
-python pm.py e -s mysite
+python pm.py e -d mysite
 ```
 The above command retrieves all the entries whose site name is "mysite"
 ```text
-python pm.py e -s mysite -l myusername
+python pm.py e -d mysite -l myusername
 ```
 The above command retrieves the entry whose site name is "mysite" and username is "myusername"
 ```text
-python pm.py e -s mysite -l myusername --copy
+python pm.py e -d mysite -l myusername --copy
 ```
 The above command copies the password of the site "mysite" and username "myusername" into the clipboard
 
