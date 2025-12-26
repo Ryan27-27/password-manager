@@ -68,7 +68,7 @@ CREATE USER 'pm'@'localhost' IDENTIFIED BY 'Secret';
 GRANT ALL PRIVILEGES ON *.* TO 'pm'@'localhost' IDENTIFIED BY 'Secret';
 FLUSH PRIVILEGES;
 ```
-### 4️⃣ Update database credentials
+### Update database credentials
 
 Edit the database configuration file:
 
