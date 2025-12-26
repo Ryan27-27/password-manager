@@ -65,7 +65,7 @@ CREATE USER 'pm'@'localhost' IDENTIFIED BY 'Secret';
 ```
 ### 3️⃣ Grant privileges
 ```bash
-GRANT ALL PRIVILEGES ON *.* TO 'pm'@'localhost' IDENTIFIED BY 'Secret';
+GRANT ALL PRIVILEGES ON *.* TO 'pm'@'localhost';
 FLUSH PRIVILEGES;
 ```
 ### Update database credentials
