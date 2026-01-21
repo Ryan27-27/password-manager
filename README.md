@@ -40,8 +40,8 @@ It securely stores passwords using **AES-GCM encryption**, **Argon2id key deriva
 Clone the repository:
 
 ```bash
-git clone https://github.com/Ryan27-27/password-manager.git
-cd password-manager
+git clone https://github.com/Ryan27-27/Credential-Vault.git
+cd Credential-Vault
 ```
 Install Python Requirements:
 ```bash
